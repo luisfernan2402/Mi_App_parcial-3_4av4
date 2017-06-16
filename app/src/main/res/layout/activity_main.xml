@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mx.edu.cetis108.mi_app_parcial_3_4av.MainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/b2" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/a2"
+        android:layout_above="@+id/b2"
+        android:layout_alignLeft="@+id/b2"
+        android:layout_alignStart="@+id/b2"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/b2"
+        android:layout_alignLeft="@+id/b2"
+        android:layout_alignStart="@+id/b2"
+        android:id="@+id/c2"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/b1"
+        android:layout_marginRight="18dp"
+        android:layout_alignBaseline="@+id/b2"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_toLeftOf="@+id/b2"
+        android:layout_toStartOf="@+id/b2"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/b2"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_toEndOf="@+id/b2"
+        android:id="@+id/button13" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/b2"
+        android:layout_alignBottom="@+id/b2"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_toEndOf="@+id/b2"
+        android:id="@+id/b3" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/a3"
+        android:layout_alignBaseline="@+id/a2"
+        android:layout_alignBottom="@+id/a2"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/c1"
+        android:layout_alignBaseline="@+id/c2"
+        android:layout_alignBottom="@+id/c2"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/c2"
+        android:layout_alignBottom="@+id/c2"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13"
+        android:id="@+id/c3" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/a1"
+        android:layout_alignBaseline="@+id/a2"
+        android:layout_alignBottom="@+id/a2"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/etPrueba"
+        android:layout_alignParentTop="true"
+        android:layout_alingParentStart="true"
+        android:textSize="24dp"
+        />
+
+</RelativeLayout>
